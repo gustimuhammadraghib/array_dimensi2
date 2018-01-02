@@ -34,4 +34,24 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+
+    cout<<"INPUT NILAI MATRIX  R : \n";
+ 
+   cout<<"------------------------- \n";
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<"MATRIX R "<<(i+1)<<","<<(j+1)<<" : ";
+ 
+      cin>>R[i][j];
+ 
+        }
+ 
+   }
 }
