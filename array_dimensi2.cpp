@@ -154,7 +154,6 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
  
    }
  
-   //cetak matrix R*W
  
    cout<<"\n MATRIX R*W : \n";;
  
@@ -173,5 +172,31 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
         cout<<endl;
  
    }
+     cout<<endl;
+ 
+
+ 
+  for (i=0;i<3;i++)
+ 
+  {
+ 
+    for (j=0;j<5;j++)
+ 
+    {
+ 
+    C[i][j]=0;
+ 
+        for (k=0;k< 5;k++)
+ 
+      {
+ 
+        C[i][j]+= R[i][k]*W[k][j];
+ 
+      }
+ 
+    }
+ 
+  }
+ 
  
 }
