@@ -54,7 +54,7 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
-//masukkan BOBOT W
+
  
    cout<<"BOBOT W: \n";
  
@@ -75,4 +75,25 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+
+    cout<<"INPUT MATRIX R*W: \n";
+ 
+   cout<<"------------------------- \n";
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<"MATRIX R*W"<<(i+1)<<","<<(j+1)<<" : ";
+ 
+      cin>>C[i][j];
+ 
+        }
+ 
+   }
+ 
 }
