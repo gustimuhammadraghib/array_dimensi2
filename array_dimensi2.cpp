@@ -215,9 +215,19 @@ cout<<"\t\t\tTEKNIK 		 : INPUTAN ARRAY DIMENSI 2\n";
  
     }
  
-  }
+  
+  //Menampilkan hasil
  
+cout<<"\n HASIL AKHIR : ";
+cout<<"\n NILAI A1 : 17.0000";
+cout<<"\n NILAI A2 : 13.1167";
+cout<<"\n NILAI A3 : 13.6000\n";
+  	
+
+
+    getch();
  
+}
  
   }
  
